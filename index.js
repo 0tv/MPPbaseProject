@@ -1,5 +1,5 @@
 // Load the client library (the file(s) that tell node how the client works and stuff)
-const MPPclient = require('./MPPclientv2.js');
+const MPPclient = require('./MPPclient.js');
 
 // Create a new instance of a client, its like creating a copy of an object but giving it special properties (via the arguments)
 const client = new MPPclient('wss://mppws.cf', null, { userAgent: 'MultiplayerPianoBot/1.0' });
