@@ -1,0 +1,30 @@
+{
+  "name": "mpp-base-project",
+  "version": "1.0.0",
+  "description": "Base project for Node.JS MPP bot using my modification of mpp-client-xt",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --inspect index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0tv/MPPbaseProject.git"
+  },
+  "keywords": [
+    "multiplayerpiano",
+    "bot",
+    "automation"
+  ],
+  "author": "0tv (Laef)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/0tv/MPPbaseProject/issues"
+  },
+  "homepage": "https://github.com/0tv/MPPbaseProject#readme",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "https-proxy-agent": "^5.0.0",
+    "socks-proxy-agent": "^6.2.0-beta.0",
+    "ws": "^8.5.0"
+  }
+}
