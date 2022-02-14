@@ -1,0 +1,9 @@
+tasks:
+  - init: npm i
+    command: npm start
+
+# just a test
+ports:
+  - port: 1234
+    onOpen: notify
+    visibility: public
