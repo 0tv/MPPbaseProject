@@ -16,7 +16,7 @@ client.start();
 // Tell the client that when it recieves an event named 'ch' (channel), it should tell you it's online in the console, and update its name
 client.on('ch', msg => {
   console.log("🥳 Your bot is online!");
-  console.log("🎉 Come visit the bot in " + msg._id);
+  console.log("🎉 Come visit the bot in " + msg.ch._id);
 	client.setName(`🎉 Bot Template ✨`);
 });
 
