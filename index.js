@@ -17,7 +17,7 @@ client.start();
 client.on('ch', msg => {
   console.log("🥳 Your bot is online!");
   console.log("🎉 Come visit the bot in " + msg.ch._id);
-	client.setName(`🎉 Bot Template ✨`);
+  client.setName(`🎉 Bot Template ✨`);
 });
 
 // Tell the client that when it recieves an event named 'a' (message), it should check if the message is 'ping', and reply if so
@@ -29,6 +29,6 @@ client.on('a', msg => {
 
 // Tell the client what to do when something goes wrong unexpectedly, e.g. the proxy server being used going offline
 client.on('error', msg => {
-	console.log(`❗ Client error: ${msg.message} - reconnecting in 5 seconds.`);
-	setTimeout(() => client.start(), 5000);
+  console.log(`❗ Client error: ${msg.message} - reconnecting in 5 seconds.`);
+  setTimeout(() => client.start(), 5000);
 });
